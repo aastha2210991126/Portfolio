@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <div class="navContainer">
+            <nav>
+                <ul class="navList">
+                    <li>
+                        <p style="color: aqua;">Portfolio
+                        </p>
+                    </li>
+                    <li>
+                        <div class="navItems">
+                            <a href="#home">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#services">Services</a>
+                            <a href="#contact">Contact</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>            
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>HELLO! MY NAME IS </h3>
+            <h1>AASTHA <span style="color: #0ef;">Aghi</span></h1>
+            <h3>Web Developer</h3>
+            <p>I am a web Designer with extensive experience for over 2 years.
+                <br>expertise is to create website design, frontend design, and many more...</p>
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            <a href="#"><i class='bx bxl-tiktok' ></i></a>
+        </div>
+        <a href="#" class="btn-box">More about me</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="aastha2.jpg" alt="Aastha Aghi">
+        </div>
+        <div class="about-txt">
+            <h2>About <span>Me</span></h2>
+            <h4>Web Developer!</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel consequatur aut culpa eos saepe, suscipit voluptas, at molestias temporibus excepturi inventore, natus ex? Maxime animi architecto, quisquam officiis similique harum?
+            Voluptatibus minima praesentium quia imus nesciunt expedita provident possimus error eaque nemo soluta at laboriosam voluptatum doloribus pariatur. Quibusdam eaque dicta culpa iusto!
+            Quasi rem quidem expedita odit et itaque accusantium, quibusdam sequi aspernatur voluptatibus excepturi quod dolores est ea eius, laudantium nemo sapiente! Iusto magnam sit vero tenetur? Architecto ullam ut odit!
+            Sunt explicabo accusamus tempora iure non culpa assumenda suscipit laborum veritatis eum doloremque quo, molestiae quibusdam ad enim dicta exercitationem? Minus quia excepturi distinctio ab id placeat, nam sit cupiditate?</p>
+            <a href="#" class="btn-box">More about me</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2>My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-items">
+                <div style="color:#0ef"><i class="fa-solid fa-code"></i></div>
+                <h4>UI/UX DESIGN</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facilis dolores minima commodi consequuntur doloribus, veritatis sit quaerat repudiandae repellat </p>
+                <div class="btn-box">Learn More</div>
+            </div>
+            <div class="services-items">
+                <div style="color:#0ef"><i class="fa-sharp fa-solid fa-palette"></i></div>
+                <h4>Web DESIGN</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facilis dolores minima commodi consequuntur doloribus, veritatis sit quaerat repudiandae repellat </p>
+                <div class="btn-box">Learn More</div>
+            </div>
+            <div class="services-items">
+                <div style="color:#0ef"><i class='bx bxl-apple'></i></div>
+                <h4>APP DESIGN</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facilis dolores minima commodi consequuntur doloribus, veritatis sit quaerat repudiandae repellat </p>
+                <div class="btn-box">Learn More</div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>GET IN TOUCH</h2>
+        <p class="contact-intro">Lorem ipsum dolor sit, amet
+        <br>consectetur adipisicing elit.
+        <br>Maiores, deleniti mollitia 
+        <br>nemo cumque
+        </p>
+        <div class="contact-icon-list">
+            <div class="contact-icon">
+            <a href="#"><i class='bx bxs-phone'></i></a>
+            <div>PHONE<br>+91-70154-45025</div>
+            </div>
+            <div class="contact-icon">
+            <a href="#"><i class='bx bxs-envelope' ></i></a>
+            <div>E-MAIL<br>aastha1126.be22@chitkara.edu.in</div>
+            </div>
+            <div class="contact-icon">
+            <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+            <div>LOCATION<br>Chitkara University,Rajpura</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item1">Aastha</div>
+            <div class="footer-item2">Created by Aastha Aghi | All <br>rights reserved</div>
+        </div>
+    </footer>
+</body>
+</html>
